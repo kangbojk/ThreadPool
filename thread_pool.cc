@@ -107,5 +107,5 @@ int main()
         tp.push_task(sayHi, i);
     }
 
-    // tp.task_queue_test();
+    tp.wait();
 }
